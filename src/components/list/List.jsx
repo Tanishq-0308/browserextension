@@ -60,7 +60,7 @@ const List = () => {
         />
           </div>
         </div>
-          <div className='grid mt-8 gap-4 2xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 transition-all duration-300 ease-in-out'>
+          <div className='grid mt-8 gap-4 2xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 transition-all duration-300 ease-in-out'>
             {
               newList.map((list)=>(
                 <div key={list.name} className='flex flex-col justify-between shadow-lg dark:bg-[#54596954] dark:text-white bg-white p-5 gap-10 md:gap-15 rounded-3xl dark:ring dark:ring-gray-600'>
